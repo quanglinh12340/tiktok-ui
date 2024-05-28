@@ -1,8 +1,15 @@
 @import 'css-reset-and-normalize/scss/reset-and-normalize';
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    //Default layout
+    --default-layout-header-height: 60px;
+    --default-layout-width: 1150px;
+}
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body {
     font-family: 'Roboto Condensed', sans-serif;
